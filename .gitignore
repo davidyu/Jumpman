@@ -16,3 +16,8 @@ characters
 Menu
 soundtrack
 sfx
+Music
+art
+
+# pesky OS X files
+.DS_Store
