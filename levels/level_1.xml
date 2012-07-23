@@ -1,0 +1,145 @@
+<root background = "sky" music = "Hungry Buns">
+<parallax element = "Cloud">
+<num>3</num>
+<xMax>1</xMax>
+<yMax>0.5</yMax>
+</parallax>
+
+<!-- for bulkloader -->
+<allowsAutoIDFromFileName>true</allowsAutoIDFromFileName>
+
+<files>
+  <file>
+    <url>art/sky.jpg</url>
+    <weight>20</weight>
+  </file>
+  <file>
+    <url>art/sand.jpg</url>
+    <weight>20</weight>
+  </file>
+  <file>
+    <url>music/Hungry Buns.mp3</url>
+    <weight>300</weight>
+</file>
+</files>
+
+<playerA>
+  <spawn>200,1000</spawn>
+</playerA>
+
+<playerB>
+  <spawn>300,1000</spawn>
+</playerB>
+<!-- ramps, flat ground, ramps -->
+  <structure texture = "sand">
+    <shape>
+      <v>0,3000</v>
+      <v>800,3000</v>
+      <v>1200,3200</v>
+      <v>1200,4000</v>
+      <v>0,4000</v>
+    </shape>
+    <shape>
+      <v>1200,3200</v>
+      <v>1800,3200</v>
+      <v>1800,4000</v>
+      <v>1200,4000</v>    
+    </shape>
+    <shape>
+      <v>1800,3200</v>
+      <v>2200,3000</v>
+      <v>3000,3000</v>
+      <v>3000,4000</v>
+      <v>1800,4000</v>
+    </shape>
+  <!-- a hop -->
+    <shape>
+      <v>3250,3000</v>
+      <v>3500,3000</v>
+      <v>3500,4000</v>
+      <v>3250,4000</v>
+    </shape>
+  <!-- another hop -->
+    <shape>
+      <v>3800,3000</v>
+      <v>4200,3000</v>
+      <v>4200,4000</v>
+      <v>3800,4000</v>
+    </shape>
+  <!-- jump up -->
+    <shape>
+      <v>4200,2500</v>
+      <v>4450,2500</v>
+      <v>4450,4000</v>
+      <v>4200,4000</v>
+    </shape>
+  <!-- 3 small platforms ABC -->  
+    <shape>
+      <v>4600,2350</v>
+      <v>4700,2350</v>
+      <v>4700,2450</v>
+      <v>4600,2450</v>
+    </shape>
+    <shape>
+      <v>4850,2200</v>
+      <v>4950,2200</v>
+      <v>4950,2300</v>
+      <v>4850,2300</v>
+    </shape>
+    <shape>
+      <v>5100,2050</v>
+      <v>5200,2050</v>
+      <v>5200,2150</v>
+      <v>5100,2150</v>
+    </shape>
+    
+  <!-- large tall platform -->  
+  
+    <shape>
+      <v>5350,1900</v>
+      <v>5600,1900</v>
+      <v>5600,4000</v>
+      <v>5350,4000</v>
+    </shape>
+    
+    <shape>
+      <v>6500,1450</v>
+      <v>6800,1450</v>
+      <v>6800,4000</v>
+      <v>6500,4000</v>
+    </shape>
+    
+  <!-- victory is in sight! -->
+  
+    <shape>
+      <v>7100,1450</v>
+      <v>7800,1450</v>
+      <v>7800,4000</v>
+      <v>7100,4000</v>
+    </shape>  
+  
+  </structure>
+  
+  <pool>
+    <shape type = "water" linearDrag = "20">
+      <v>3000,3100</v>
+      <v>3250,3100</v>
+      <v>3250,4000</v>
+      <v>3000,4000</v>
+    </shape>
+    <shape type = "water" linearDrag = "20">
+      <v>3500,3100</v>
+      <v>3800,3100</v>
+      <v>3800,4000</v>
+      <v>3500,4000</v>
+    </shape>
+    
+  <!-- acid right below three small platforms ABC-->
+    <shape type = "acid" linearDrag = "20">
+      <v>4450,2600</v>
+      <v>5350,2600</v>
+      <v>5350,4000</v>
+      <v>4450,4000</v>
+    </shape>
+  </pool>
+</root>

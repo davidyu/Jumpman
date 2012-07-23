@@ -7,3 +7,12 @@ bin-release/
 .flexProperties
 .settings/
 .project
+
+# Textmate project
+*.tmproj
+
+# binaries
+characters
+Menu
+soundtrack
+sfx

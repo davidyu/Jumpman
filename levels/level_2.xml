@@ -1,0 +1,162 @@
+<root background = "night" music = "Hendrix in China">
+<parallax element = "Star">
+<num>20</num>
+<xMax>2</xMax>
+<yMax>1</yMax>
+</parallax>
+
+<!-- for bulkloader -->
+<allowsAutoIDFromFileName>true</allowsAutoIDFromFileName>
+
+<files>
+  <file>
+    <url>art/night.jpg</url>
+    <weight>20</weight>
+  </file>
+  <file>
+    <url>art/asphalt.jpg</url>
+    <weight>20</weight>
+  </file>
+  <file>
+    <url>music/Hendrix in China.mp3</url>
+    <weight>300</weight>
+  </file>
+</files>
+
+<playerA>
+  <spawn>200,1000</spawn>
+</playerA>
+
+<playerB>
+  <spawn>300,1000</spawn>
+</playerB>
+<!-- ramps, flat ground, ramps -->
+  <structure texture = "asphalt">
+    <shape>
+      <v>0,3000</v>
+      <v>800,3000</v>
+      <v>800,4000</v>
+      <v>0,4000</v>
+    </shape>
+<!-- some series of hops -->
+    <shape>
+      <v>1000,3100</v>
+      <v>1050,3100</v>
+      <v>1050,4000</v>
+      <v>1000,4000</v>
+    </shape>
+    <shape>
+      <v>1250,3175</v>
+      <v>1300,3175</v>
+      <v>1300,4000</v>
+      <v>1250,4000</v>
+    </shape>
+    <shape>
+      <v>1500,3050</v>
+      <v>1550,3050</v>
+      <v>1550,4000</v>
+      <v>1500,4000</v>
+    </shape>
+    <shape>
+      <v>1750,3200</v>
+      <v>1800,3200</v>
+      <v>1800,4000</v>
+      <v>1750,4000</v>
+    </shape>
+    
+  <!-- rest -->
+  
+    <shape>
+      <v>2000,3400</v>
+      <v>2400,3400</v>
+      <v>2400,4000</v>
+      <v>2000,4000</v>
+    </shape>
+    
+  <!-- series of small steps -->
+  
+    <shape>
+      <v>2500,3250</v>
+      <v>2550,3250</v>
+      <v>2550,3300</v>
+      <v>2500,3300</v>
+    </shape>
+    
+    <shape>
+      <v>2650,3100</v>
+      <v>2700,3100</v>
+      <v>2700,3150</v>
+      <v>2650,3150</v>
+    </shape>
+
+    <shape>
+      <v>2400,3000</v>
+      <v>2450,3000</v>
+      <v>2450,3050</v>
+      <v>2400,3050</v>
+    </shape>
+    
+    <shape>
+      <v>2650,2850</v>
+      <v>2700,2850</v>
+      <v>2700,2900</v>
+      <v>2650,2900</v>
+    </shape>
+        
+  <!-- item platform -->  
+  
+    <shape>
+      <v>2850,2700</v>
+      <v>3000,2700</v>
+      <v>3000,2850</v>
+      <v>2850,2850</v>
+    </shape>
+    
+  <!-- loooooongcat -->
+  
+    <shape>
+      <v>3275,2750</v>
+      <v>3325,2750</v>
+      <v>3325,4000</v>
+      <v>3275,4000</v>
+    </shape>
+    
+  <!-- fatcat -->
+
+    <shape>
+      <v>3600,2750</v>
+      <v>3800,2750</v>
+      <v>3800,4000</v>
+      <v>3600,4000</v>
+    </shape>
+    
+  <!-- small step -->
+  
+    <shape>
+      <v>4000,2950</v>
+      <v>4050,2950</v>
+      <v>4050,3000</v>
+      <v>4000,3000</v>
+    </shape>
+    
+  <!-- ajklsf -->
+  
+    <shape>
+      <v>4150,3100</v>
+      <v>4350,3100</v>
+      <v>4350,4000</v>
+      <v>4150,4000</v>
+    </shape>
+    
+  <!-- victory is near! -->
+  
+    <shape>
+      <v>4750,2800</v>
+      <v>5100,2800</v>
+      <v>5100,4000</v>
+      <v>4750,4000</v>
+    </shape>
+  
+  </structure>
+
+</root>

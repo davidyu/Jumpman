@@ -1,0 +1,17 @@
+<root>
+  <platform type = "automatic">
+    <dimensions>
+        <width>200</width>
+        <height>40</height>
+    </dimensions>
+    <start>4450,3100</start>
+    <end>4650,2800</end>
+    <cooldown>3</cooldown>
+  </platform>
+  
+  <door type = "victory">
+    <width></width>
+    <height></height>
+    <position>4900,2800</position>
+  </door>
+</root>

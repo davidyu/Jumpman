@@ -1,0 +1,37 @@
+<root>
+  
+  <spring type = "right">
+    <dimensions>
+      <width>120</width>
+      <height>16</height>
+    </dimensions>
+    <position>4127.5,2900</position>
+  </spring>
+  
+  <platform type = "automatic">
+    <dimensions>
+        <width>200</width>
+        <height>40</height>
+    </dimensions>
+    <start>5700,1900</start>
+    <end>5900,1900</end>
+    <cooldown>3</cooldown>
+  </platform>
+  
+  <platform type = "automatic">
+    <dimensions>
+        <width>200</width>
+        <height>40</height>
+    </dimensions>
+    <start>6200,1500</start>
+    <end>6200,1750</end>
+    <cooldown>3</cooldown>
+  </platform>
+  
+  <door type = "victory">
+    <width></width>
+    <height></height>
+    <position>7500,1450</position>
+  </door>
+  
+</root>
