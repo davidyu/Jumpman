@@ -5,12 +5,12 @@ Jumpman
 
 Could same-machine co-op work with platformers?
 
-Short answer: maybe; but not without a slick splitscreen mode or networking.
-Long answer: try Jumpman!
++ Short answer: maybe; but not without a slick splitscreen mode or networking.
++ Long answer: try Jumpman!
 
 ##History
 
-One of the first prototypes I've spent more than a month on. I started this project just as I was starting Computer Science at college (around 2009), so I didn't try to start from scratch and instead made liberal use of (read: copied) libraries, frameworks, and code snippets from the web. As a result, the prototype features tech (like realistic buoyancy and particle emitters) that I would never have been able to build by myself at the time.
+One of the first prototypes I spent more than a month on. I started this project just as I was starting Computer Science in college (around 2009), so I didn't try to start writing everything from scratch and instead made liberal use of (read: copied) libraries, frameworks, and code snippets from the web. As a result, the prototype features tech (like realistic buoyancy and particle emitters) that I would never have been able to build by myself at the time.
 
 ##Controls
 
