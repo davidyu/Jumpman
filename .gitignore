@@ -21,3 +21,6 @@ art
 
 # pesky OS X files
 .DS_Store
+
+# misc
+Ignore
