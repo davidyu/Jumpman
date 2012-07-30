@@ -33,3 +33,5 @@ One of the first prototypes I spent more than a month on. I started this project
 + [Tweensy particles](http://code.google.com/p/tweensy/wiki/TweensyFX)
 + [Sine wave-based water ripples](http://www.senocular.com/flash/source/?id=0.28).
 + [BulkLoader](http://code.google.com/p/bulk-loader/wiki/GettingStarted): XML level loader
+
+If you're starting out in Box2D, make sure to watch [Todd Kerpelman's Box2D tutorials](http://www.kerp.net/box2d/)
