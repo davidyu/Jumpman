@@ -1,9 +1,9 @@
 Jumpman
 =======
 
-![Buoyancy and water ripples!](/desktop/Jumpman/raw/master/Screenshots/screen.build.6.27.jpg)
-![Vaulting!](/desktop/Jumpman/raw/master/Screenshots/screen.build.newest.jpg)
-![Starry skies...](/desktop/Jumpman/raw/master/Screenshots/screen.build.newest2.jpg)
+![Buoyancy and water ripples!](./Screenshots/screen.build.6.27.jpg)
+![Vaulting!](./Screenshots/screen.build.newest.jpg)
+![Starry skies...](./Screenshots/screen.build.newest2.jpg)
 
 ##Premise
 
